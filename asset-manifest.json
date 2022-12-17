@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/my-first-portfolio/static/css/main.f69ca716.css",
+    "main.js": "/my-first-portfolio/static/js/main.decede3b.js",
+    "static/js/787.39bb0775.chunk.js": "/my-first-portfolio/static/js/787.39bb0775.chunk.js",
+    "static/media/Farzin.png": "/my-first-portfolio/static/media/Farzin.42fdb1a4fe3ca829e4db.png",
+    "static/media/GrtskTera-Bold.ttf": "/my-first-portfolio/static/media/GrtskTera-Bold.59009109f4c9d57f713c.ttf",
+    "static/media/Farzin Mohamadi CV.pdf": "/my-first-portfolio/static/media/Farzin Mohamadi CV.94288ad5025022ed8e5c.pdf",
+    "index.html": "/my-first-portfolio/index.html",
+    "main.f69ca716.css.map": "/my-first-portfolio/static/css/main.f69ca716.css.map",
+    "main.decede3b.js.map": "/my-first-portfolio/static/js/main.decede3b.js.map",
+    "787.39bb0775.chunk.js.map": "/my-first-portfolio/static/js/787.39bb0775.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f69ca716.css",
+    "static/js/main.decede3b.js"
+  ]
+}
