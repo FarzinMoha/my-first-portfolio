@@ -1,0 +1,105 @@
+.intro-container {
+  overflow-x: hidden;
+  background-color: var(--dark);
+  width: 100vw;
+  height: 100vh;
+  min-height: 700px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  @media screen and (min-width: 769px) and (max-width: 1024px) {
+    justify-content: center;
+  }
+  @media screen and (max-width: 768px) {
+    flex-direction: column-reverse;
+  }
+  & .intro-text-container {
+    color: var(--white);
+    text-align: left;
+    font-size: 45px;
+    z-index: 5;
+    @media screen and (min-width: 1025px) and (max-width: 1200px) {
+      font-size: 36px;
+    }
+    @media screen and (min-width: 769px) and (max-width: 1024px) {
+      font-size: 30px;
+      width: 60%;
+    }
+    @media screen and (min-width: 601px) and (max-width: 769px) {
+      font-size: 33px;
+      transform: translateY(-180px) translateX(-70px);
+    }
+    @media screen and (min-width: 481px) and (max-width: 600px) {
+      font-size: 25px;
+      transform: translateY(-120px) translateX(-40px);
+    }
+    @media screen and (min-width: 381px) and (max-width: 480px) {
+      font-size: 25px;
+      transform: translateY(-130px);
+    }
+    @media screen and (min-width: 320px) and (max-width: 380px) {
+      font-size: 21px;
+      transform: translateY(-130px);
+    }
+    & h1,
+    p {
+      color: #fff;
+      background: linear-gradient(to right, transparent, var(--white));
+      background-size: auto auto;
+      background-clip: border-box;
+      background-size: 200% auto;
+      background-clip: text;
+      text-fill-color: transparent;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      -webkit-text-stroke: 1px var(--white);
+      transition: 0.5s;
+      &:hover {
+        background-position: -100%;
+      }
+    }
+  }
+  & .intro-image-container {
+    height: 720px;
+    width: 650px;
+    background: url("../../image/Farzin.png");
+    background-size: cover;
+    -moz-box-shadow: inset 0px -650px 500px -500px var(--dark);
+    -webkit-box-shadow: inset 0px -650px 500px -500px var(--dark);
+    -o-box-shadow: inset 0px -650px 500px -500px var(--dark);
+    box-shadow: inset 0px -650px 500px -500px var(--dark);
+    transform: translateY(-60px);
+    @media screen and (min-width: 769px) and (max-width: 890px) {
+      height: 520px;
+      width: 420px;
+    }
+    @media screen and (min-width: 601px) and (max-width: 769px) {
+      transform: translateY(0px) translateX(150px);
+      height: 520px;
+      width: 380px;
+    }
+    @media screen and (min-width: 481px) and (max-width: 600px) {
+      height: 550px;
+      width: 420px;
+      transform: translateY(0px);
+    }
+    @media screen and (min-width: 381px) and (max-width: 480px) {
+      height: 380px;
+      width: 320px;
+    }
+    @media screen and (min-width: 320px) and (max-width: 380px) {
+      height: 400px;
+      width: 320px;
+      transform: translateY(-40px);
+    }
+  }
+  .intro-image-container:before,
+  .intro-image-container:after {
+    content: "";
+    position: absolute;
+    left: 5%;
+    opacity: 0.5;
+  }
+}

@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'GrtskTera';
+  src: url('./font/GrtskTera-Bold.ttf');
+
+}
+
+:root{
+  --dark:#242424;
+  --black:#000000;
+  --white:#ffffff;
+  --git:#272626;
+  --linked:#1877f2;
+  --gmail:#ff0000;
+  --whatsapp:#25d366;
+  --telegram:#0a66c2;
+  
+}
+
+
+
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: 'GrtskTera';
+  // cursor: none;
+}

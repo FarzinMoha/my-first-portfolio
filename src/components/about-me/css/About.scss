@@ -1,0 +1,101 @@
+.section-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    & .section {
+      padding: 50px 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      text-align: left;
+      & .section-title {
+        font-size: 60px;
+        color: #fff;
+        padding: 5px;
+        transition: 1.5s;
+        font-style: normal;
+        @media screen and (min-width: 1025px) and (max-width: 1200px){
+          font-size: 50px;
+      }
+      @media screen and (min-width: 769px) and (max-width: 1024px){
+          font-size: 35px;
+      }
+      @media screen and (min-width: 601px) and (max-width: 768px){
+          font-size: 30px;
+        }
+        @media screen and (min-width: 481px) and (max-width: 600px){
+          font-size: 20px;
+        }
+        @media screen and (max-width: 480px){
+          font-size: 17px;
+        }
+      }
+      & .section-company {
+        padding: 5px;
+        font-size: 60px;
+        color: #cbcbcb;
+        letter-spacing: 7px;
+        @media screen and (min-width: 1025px) and (max-width: 1200px){
+          font-size: 50px;
+      }
+      @media screen and (min-width: 769px) and (max-width: 1024px){
+          font-size: 30px;
+      }
+      @media screen and (min-width: 601px) and (max-width: 768px){
+          font-size: 25px;
+        }
+        @media screen and (min-width: 481px) and (max-width: 600px){
+          font-size: 17px;
+        }
+        @media screen and (max-width: 480px){
+          font-size: 17px;
+        }
+      }
+      & .section-date {
+        padding: 5px;
+        font-size: 40px;
+        color: #a7a7a7;
+        @media screen and (min-width: 1025px) and (max-width: 1200px){
+          font-size: 35px;
+      }
+      @media screen and (min-width: 769px) and (max-width: 1024px){
+          font-size: 25px;
+      }
+      @media screen and (min-width: 601px) and (max-width: 768px){
+          font-size: 20px;
+        }
+        @media screen and (min-width: 481px) and (max-width: 600px){
+          font-size: 15px;
+        }
+        @media screen and (max-width: 480px){
+          font-size: 13px;
+        }
+      }
+      & .section-text {
+        padding: 15px;
+        padding-left: 0px;
+        font-size: 40px;
+        line-height: 60px;
+        color: #818181;
+        @media screen and (min-width: 1025px) and (max-width: 1200px){
+          font-size: 35px;
+      }
+      @media screen and (min-width: 769px) and (max-width: 1024px){
+          font-size: 30px;
+      }
+      @media screen and (min-width: 601px) and (max-width: 768px){
+          font-size: 20px;
+        }
+        @media screen and (min-width: 481px) and (max-width: 600px){
+          font-size: 13px;
+        }
+        @media screen and (max-width: 480px){
+          font-size: 13px;
+        }
+      }
+    }
+  }
+  

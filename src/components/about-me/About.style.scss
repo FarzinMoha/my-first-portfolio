@@ -1,0 +1,19 @@
+.about-container {
+  width: 100%;
+  background-color: var(--dark);
+  padding-bottom: 100px;
+}
+.about-container2{
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 40px;
+    // background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.magnifire-available{
+  cursor: none;
+}
